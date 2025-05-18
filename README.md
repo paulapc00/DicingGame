@@ -21,31 +21,42 @@ How to Play
 
 Requirements
 - Python 3.x
-- 
+
 Installation
 No special installation required. Just download the script and run it with Python:
 python dicing_game.py
 
-Example Usage
-======= MENÚ =======
-1) Lanzar dados
-2) Salir
-Selecciona una opción (1/2): 1
+Example usage:
+==================================================================================================
+======= MENU =======
+1) Roll dice
+2) Exit
+Select an option (1/2): 1
 
-=== PRIMER LANZAMIENTO ===
+=== FIRST ROLL ===
 [3] [1] [4] [2] [6]
 
-¿Qué dados vuelves a tirar? (posiciones 1-5 separadas por espacio/coma, Enter = ninguno): 1,2
+Which dice do you want to roll again? (positions 1-5 separated by space/comma, Enter = none): 1,2
 
-=== LANZAMIENTO 2 ===
+=== SECOND ROLL ===
 [5] [6] [4] [2] [6]
 
-¿Qué dados vuelves a tirar? (posiciones 1-5 separadas por espacio/coma, Enter = ninguno): 4
+Which dice do you want to roll again? (positions 1-5 separated by space/comma, Enter = none): 4
 
-=== LANZAMIENTO 3 ===
+=== THIRD ROLL ===
 [5] [6] [4] [5] [6]
 
->>> Resultado final: [5] [6] [4] [5] [6]
+Final result: [5] [6] [4] [5] [6]
+============================================================================================
+
+
+Game Logic:
+
+The game consists of:
+- An initial roll of 5 dice
+- Two opportunities to choose which dice to roll again
+- Strategy to achieve the best possible combination
+
 
 License
 This project is open source and available under the MIT License.
